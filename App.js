@@ -7,6 +7,9 @@ import Loading from './src/Loading'
 import SignUp from './src/SignUp'
 import Login from './src/Login'
 import Main from './src/Main'
+import ToDos from './src/ToDos';
+
+
 
 // create our app's navigation stack
 const App = SwitchNavigator(
@@ -14,7 +17,8 @@ const App = SwitchNavigator(
     Loading,
     SignUp,
     Login,
-    Main
+    Main,
+    ToDos
   },
   {
     initialRouteName: 'Loading'

@@ -40,8 +40,9 @@ react-native run-android
 yarn add react-navigation
 
 
-
-
+20181022_c
+--------------------------------------------------------
+    // https://blog.invertase.io/getting-started-with-cloud-firestore-on-react-native-b338fb6525b9
 
 
 
