@@ -1,10 +1,10 @@
 
 ==================================
 
-    # react-native init myApp_007
+    # https://medium.com/react-native-training/react-native-firebase-authentication-7652e1d2c8a2
 
     #   Git: clone repositiry:
-    #        https://github.com/FredSTMK/v2c2.at_myApp_007.git
+    #        https://github.com/FredSTMK/v2c2.at_myApp_008.git
     #        
     #        manfred.rosenberger@gmx.net
     #        rC72
@@ -16,7 +16,10 @@ https://github.com/invertase/react-native-firebase-starter
     cd react-native-firebase-starter
     yarn
     cd ..
-    npm run rename    
+    npm run rename
+    git init
+    git remote add origin https://github.com/FredSTMK/v2c2.at_myApp_008.git
+    git push -u origin master
     
 -------------------
 ./android/local.properties
@@ -34,6 +37,24 @@ react-native start
 react-native run-android
 
 
+yarn add react-navigation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ==================================
 react-native info
 react-native upgrade
@@ -42,7 +63,7 @@ react-native upgrade
 https://medium.com/react-native-training/firebase-sdk-with-firestore-for-react-native-apps-in-2018-aa89a67d6934
 
 
-C:\_Dateien\__workspace\reactRepos\myApp_007> 
+C:\_Dateien\__workspace\reactRepos\myApp_008> 
     yarn add  react-native-firebase
     yarn add  react-navigation
 
