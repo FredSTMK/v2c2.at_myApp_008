@@ -1,0 +1,111 @@
+
+==================================
+
+    # react-native init myApp_007
+
+    #   Git: clone repositiry:
+    #        https://github.com/FredSTMK/v2c2.at_myApp_007.git
+    #        
+    #        manfred.rosenberger@gmx.net
+    #        rC72
+    
+    
+https://github.com/invertase/react-native-firebase-starter    
+    
+    git clone https://github.com/invertase/react-native-firebase-starter.git
+    cd react-native-firebase-starter
+    yarn
+    cd ..
+    npm run rename    
+    
+-------------------
+./android/local.properties
+    sdk.dir=C\:\\Users\\manfredrosenberger\\AppData\\Local\\Android\\sdk
+./android/gradle.properties    
+    org.gradle.java.home=C:\\Program Files\\Java\\jdk1.8.0_152
+-------------------
+
+yarn add react-native-google-signin
+
+cd android
+    ./gradlew clean
+
+react-native start
+react-native run-android
+
+
+==================================
+react-native info
+react-native upgrade
+
+----------------------------------
+https://medium.com/react-native-training/firebase-sdk-with-firestore-for-react-native-apps-in-2018-aa89a67d6934
+
+
+C:\_Dateien\__workspace\reactRepos\myApp_007> 
+    yarn add  react-native-firebase
+    yarn add  react-navigation
+
+    https://console.firebase.google.com/
+        Projektname:    myApp-07
+        Projekt-ID:     myapp-07-83a8b 
+    
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBVRaPfn6VNnryGwLMAQloO_KQB7C6kt4Y",
+        authDomain: "myapp-07-83a8b.firebaseapp.com",
+        databaseURL: "https://myapp-07-83a8b.firebaseio.com",
+        projectId: "myapp-07-83a8b",
+        storageBucket: "myapp-07-83a8b.appspot.com",
+        messagingSenderId: "261098462449"
+      };
+      firebase.initializeApp(config);
+    </script>    
+    
+----------------------------------
+    
+react-native link react-native-firebase
+
+
+
+
+
+
+----------------------------------
+
+ 
+    
+==================================
+   
+    npm install -g firebase
+    npm install -g react-navigation
+    npm install -g react-native-firebase
+    react-native upgrade
+
+
+    npm list -g    
+    npm install -g moment
+    npm install -g react-moment
+    npm install -g dateformat
+   
+    
+    # npm ERR! peer dep missing: react@>= 16.5.0, required by react-native-firebase@5.0.0
+    # npm ERR! peer dep missing: react-native@>= 0.57.0, required by react-native-firebase@5.0.0
+
+    npm install -g --save react@16.5.0
+    npm install -g --save react-native@0.57.0
+
+
+    
+    
+    
+    
+
+npm install -g --save firebase
+
+
+=== git-integration ==============
+npm install -g react-native-git-upgrade
+react-native-git-upgrade
