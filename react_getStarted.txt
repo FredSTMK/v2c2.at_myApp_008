@@ -45,7 +45,7 @@ yarn add react-navigation
     // https://blog.invertase.io/getting-started-with-cloud-firestore-on-react-native-b338fb6525b9
 
 
-
+git push -u origin 20181022_c
 
 
 
