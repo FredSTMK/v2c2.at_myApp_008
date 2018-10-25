@@ -22,6 +22,8 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "firebase-export": "^0.0.2",
+    "firebase-import": "^2.2.0",
     "react": "16.5.0",
     "react-native": "0.57.1",
     "react-native-firebase": "^5.0.0",
